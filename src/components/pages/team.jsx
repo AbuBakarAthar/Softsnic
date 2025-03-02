@@ -8,7 +8,7 @@ const teamMembers = [
     id: 1,
     name: "Abu Bakar",
     position: "CEO",
-    image: "/images/team/abu-bakar.jpg",
+    image: "/images/team/Abubakr.jpg",
     bio: "As the CEO of Softsinc, Abu Bakar leads with vision, strategy, and a passion for innovation.",
     linkedin: "https://linkedin.com/in/random",
     github: "https://github.com/random",
