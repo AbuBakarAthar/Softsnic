@@ -64,18 +64,16 @@ export default function HeroSection() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeIn" }}
         >
-          Where Innovation Meets Excellence
+          Innovating the Future, Delivering Excellence
         </motion.h2>
 
         <motion.p
-          className="text-lg text-gray-200 mt-6 leading-6 max-w-3xl mx-auto text-justify"
+          className="text-lg text-gray-200 mt-6 leading-6 max-w-3xl mx-auto text-center"
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 2, ease: "easeIn" }}
         >
-          Turning Possibilities into Reality. At Softsinc, we bridge the gap between
-          innovation and execution. Specializing in AI, we provide
-          end-to-end IT solutions ensuring seamless integration and continuous support.
+      Transforming ideas into cutting-edge solutions. At Softsinc, we fuse AI-driven innovation with seamless execution, providing end-to-end IT solutions that empower businesses with intelligent technology, seamless integration, and continuous support.
         </motion.p>
       </div>
     </div>

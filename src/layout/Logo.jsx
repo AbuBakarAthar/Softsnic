@@ -8,9 +8,16 @@ const Logo = () => {
       className="text-4xl font-bold transition-all duration-300"
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-    >
-      <span className={`text-purple-500 ${hover ? "hidden" : "inline"}`}>Softsinc</span>
-      <span className={`text-white ${hover ? "inline" : "hidden"}`}>Softsinc</span>
+    ><span
+    style={{ color: "#f4379d" }}
+    className={`${hover ? "hidden" : "inline"}`}
+  >
+    Softsinc
+  </span>
+  
+  <span className={`text-black ${hover ? "inline" : "hidden"}`}>
+    Softsinc
+  </span>
     </div>
   );
 };

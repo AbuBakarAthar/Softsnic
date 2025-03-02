@@ -7,14 +7,15 @@ import "react-vertical-timeline-component/style.min.css";
 
 const HomeL = () => {
   return (
-    <div className="p-6 bg-gradient-to-b from-black to-gray-900 text-white min-h-screen">
-      <h1 className="text-4xl font-bold text-center">What Makes Us Special?</h1>
-      <p className="text-center text-gray-300 mt-2">
-        At Softsinc, our commitment to innovation and excellence sets us apart. Here’s why clients choose us:
-      </p>
+<div className="p-6 bg-[#120c16] text-white min-h-screen">
+  <h1 className="text-4xl font-bold text-center text-[#f4379d]">What Makes Us Special?</h1>
+  <p className="text-center text-gray-300 mt-2 text-[#d1a5c7]">
+    At Softsinc, our commitment to innovation and excellence sets us apart. Here’s why clients choose us:
+  </p>
+
 
       {/* Timeline Section */}
-      <div className="mt-10">
+      <div className="mt-10 p-6 bg-[#120c16] text-white min-h-screen">
         <VerticalTimeline>
           <Feature title="Government Endorsement">
             Recognized by key government bodies for trusted expertise and leadership in technology.

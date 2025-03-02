@@ -1,68 +1,77 @@
-import React from 'react';
-import Layout from '../../layout/Layout';
-import { motion } from 'framer-motion';
+import React from "react";
+import Layout from "../../layout/Layout";
+import { motion } from "framer-motion";
 
 const services = [
   {
     id: 1,
-    title: 'Web Development',
-    description: 'We create dynamic, high-performance websites tailored to your brand’s needs, ensuring responsiveness and scalability.',
-    icon: '💻',
+    title: "Web Development",
+    description:
+      "We create dynamic, high-performance websites tailored to your brand’s needs, ensuring responsiveness and scalability.",
+    icon: "💻",
   },
   {
     id: 2,
-    title: 'UI/UX Design',
-    description: 'Our expert designers craft intuitive and engaging user interfaces for enhanced digital experiences.',
-    icon: '🎨',
+    title: "UI/UX Design",
+    description:
+      "Our expert designers craft intuitive and engaging user interfaces for enhanced digital experiences.",
+    icon: "🎨",
   },
   {
     id: 3,
-    title: 'SEO Optimization',
-    description: 'Boost your search rankings and drive organic traffic with our data-driven SEO strategies.',
-    icon: '🔍',
+    title: "SEO Optimization",
+    description:
+      "Boost your search rankings and drive organic traffic with our data-driven SEO strategies.",
+    icon: "🔍",
   },
   {
     id: 4,
-    title: 'Digital Marketing',
-    description: 'We elevate your brand’s presence through targeted social media, PPC campaigns, and growth strategies.',
-    icon: '📈',
+    title: "Digital Marketing",
+    description:
+      "We elevate your brand’s presence through targeted social media, PPC campaigns, and growth strategies.",
+    icon: "📈",
   },
   {
     id: 5,
-    title: 'Mobile App Development',
-    description: 'Cross-platform, high-performance mobile apps that deliver seamless user experiences.',
-    icon: '📱',
+    title: "Mobile App Development",
+    description:
+      "Cross-platform, high-performance mobile apps that deliver seamless user experiences.",
+    icon: "📱",
   },
   {
     id: 6,
-    title: 'Cloud Solutions',
-    description: 'Secure, scalable, and efficient cloud services to power your business operations.',
-    icon: '☁️',
+    title: "Cloud Solutions",
+    description:
+      "Secure, scalable, and efficient cloud services to power your business operations.",
+    icon: "☁️",
   },
   {
     id: 7,
-    title: 'E-commerce Solutions',
-    description: 'Powerful and user-friendly e-commerce platforms designed to maximize sales and conversions.',
-    icon: '🛒',
+    title: "E-commerce Solutions",
+    description:
+      "Powerful and user-friendly e-commerce platforms designed to maximize sales and conversions.",
+    icon: "🛒",
   },
   {
     id: 8,
-    title: 'Maintenance & Support',
-    description: 'Reliable, 24/7 maintenance and support to keep your systems running at peak performance.',
-    icon: '🔧',
+    title: "Maintenance & Support",
+    description:
+      "Reliable, 24/7 maintenance and support to keep your systems running at peak performance.",
+    icon: "🔧",
   },
   {
     id: 9,
-    title: 'Custom Software Development',
-    description: 'Tailored software solutions designed to meet your unique business requirements and workflows.',
-    icon: '🛠️',
+    title: "Custom Software Development",
+    description:
+      "Tailored software solutions designed to meet your unique business requirements and workflows.",
+    icon: "🛠️",
   },
 ];
 
 const Service = () => {
   return (
     <Layout>
-      <div className="py-24 min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900">
+      <div className="py-24 min-h-screen bg-[#120c16]">
         <div className="container mx-auto px-6 text-center">
           {/* Title */}
           <motion.h1
@@ -74,10 +83,10 @@ const Service = () => {
           >
             Elevate Your Business with Our Expert Services
           </motion.h1>
-          
+
           {/* Subtitle */}
           <motion.p
-            className="text-lg text-gray-300 max-w-3xl mx-auto mb-20"
+            className="text-lg text-gray-400 max-w-3xl mx-auto mb-16"
             initial={{ opacity: 0, y: -20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -91,7 +100,7 @@ const Service = () => {
             {services.map((service) => (
               <motion.div
                 key={service.id}
-                className="bg-gray-800/50 backdrop-blur-sm text-white rounded-2xl shadow-lg p-8 flex flex-col items-center transition-transform duration-300 hover:scale-105 hover:shadow-xl hover:bg-gray-800/70"
+                className="bg-gray-800/60 backdrop-blur-lg text-white rounded-2xl shadow-lg p-8 flex flex-col items-center transition-transform duration-300 hover:scale-105 hover:shadow-2xl hover:bg-gray-800/80"
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
