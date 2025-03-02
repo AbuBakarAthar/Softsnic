@@ -35,7 +35,9 @@ const Header = () => {
       className={`fixed w-full z-10 transition-transform duration-300 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       } ${
-        isDarkMode ? "bg-[#110C16] text-white shadow-md shadow-gray-800" : "bg-white text-gray-900 shadow-md shadow-gray-300"
+        isDarkMode 
+          ? "bg-[#110C16] text-white shadow-md shadow-white/20" 
+          : "bg-white text-gray-900 shadow-md shadow-black/20"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -91,7 +93,11 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className={`md:hidden px-4 pb-4 ${isDarkMode ? "bg-[#110C16] text-white" : "bg-white text-gray-900 shadow-md shadow-gray-300"}`}>
+        <div className={`md:hidden px-4 pb-4 ${
+          isDarkMode 
+            ? "bg-[#110C16] text-white shadow-md shadow-white/20" 
+            : "bg-white text-gray-900 shadow-md shadow-black/20"
+        }`}>
           <div className="flex flex-col space-y-2">
             {["Home", "About", "Services", "Team", "Blog", "Product", "Contact Us"].map((name) => (
               <NavLink

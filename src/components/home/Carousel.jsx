@@ -37,7 +37,7 @@ const Carousel = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
       >
-        Trusted By Leading Innovators
+        🛠️ Our Tech Stack
       </motion.h1>
 
       {/* Infinite Carousel */}
