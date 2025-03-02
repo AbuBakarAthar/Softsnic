@@ -18,7 +18,7 @@ const About = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          About Saafqeon
+          About Softsinc
         </motion.h1>
 
         {/* Description */}
@@ -28,7 +28,7 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          Saafqeon is a dynamic and innovative software house dedicated to crafting 
+          Softsinc is a dynamic and innovative software house dedicated to crafting 
           high-quality solutions. Our team of passionate professionals leverages cutting-edge 
           technology to deliver impactful digital experiences.
         </motion.p>

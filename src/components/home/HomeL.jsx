@@ -10,7 +10,7 @@ const HomeL = () => {
     <div className="p-6 bg-gradient-to-b from-black to-gray-900 text-white min-h-screen">
       <h1 className="text-4xl font-bold text-center">What Makes Us Special?</h1>
       <p className="text-center text-gray-300 mt-2">
-        At Saafqeon, our commitment to innovation and excellence sets us apart. Here’s why clients choose us:
+        At Softsinc, our commitment to innovation and excellence sets us apart. Here’s why clients choose us:
       </p>
 
       {/* Timeline Section */}

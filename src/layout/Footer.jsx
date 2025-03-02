@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
         {/* Logo & Socials */}
         <div>
-          <h2 className="text-2xl font-bold">SAAFQEON Technologies</h2>
+          <h2 className="text-2xl font-bold">Softsinc Technologies</h2>
           <div className="flex gap-4 mt-4">
             <FaInstagram className="text-2xl cursor-pointer" />
             <FaFacebookF className="text-2xl cursor-pointer" />
@@ -22,7 +22,7 @@ const Footer = () => {
           <ul className="space-y-2">
             <li>About Us</li>
             <li>Case Studies</li>
-            <li>Saafqeon Research</li>
+            <li>Softsinc Research</li>
             <li>Start-Ups</li>
           </ul>
         </div>
@@ -44,7 +44,7 @@ const Footer = () => {
       <div className="mt-10 border-t border-gray-700 pt-5 text-center md:text-left grid grid-cols-1 md:grid-cols-2 gap-5">
         <div>
           <h3 className="text-lg font-semibold">Contact Us</h3>
-          <p>Email: sales@saafqeon.com</p>
+          <p>Email: sales@Softsinc.com</p>
           <p>Phone: +92 300 1234567</p>
           <p>Phone: +1 773 270 9034</p>
         </div>
@@ -56,7 +56,7 @@ const Footer = () => {
       
       {/* Copyright */}
       <div className="text-center mt-5 text-gray-400 text-sm">
-        Copyright &copy; {new Date().getFullYear()} Saafqeon Technologies | All Rights Reserved
+        Copyright &copy; {new Date().getFullYear()} Softsinc Technologies | All Rights Reserved
       </div>
     </footer>
   );

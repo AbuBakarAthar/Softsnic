@@ -12,7 +12,7 @@ export default function HeroSection() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeIn" }}
         >
-          Welcome to Saafqeon
+          Welcome to Softsinc
         </motion.h1>
         <motion.h2
           className="text-2xl sm:text-3xl text-white font-semibold mt-4"
@@ -28,7 +28,7 @@ export default function HeroSection() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1.5, ease: "easeIn" }}
         >
-          At Saafqeon, we transform innovative ideas into reality. Specializing in AI,
+          At Softsinc, we transform innovative ideas into reality. Specializing in AI,
           we deliver top-tier IT solutions from conception to deployment.
         </motion.p>
         

@@ -56,7 +56,7 @@ export default function HeroSection() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeIn" }}
         >
-          Saafqeon
+          Softsinc
         </motion.h1>
         <motion.h2
           className="text-3xl text-white font-semibold mt-4"
@@ -73,7 +73,7 @@ export default function HeroSection() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 2, ease: "easeIn" }}
         >
-          Turning Possibilities into Reality. At Saafqeon, we bridge the gap between
+          Turning Possibilities into Reality. At Softsinc, we bridge the gap between
           innovation and execution. Specializing in AI, we provide
           end-to-end IT solutions ensuring seamless integration and continuous support.
         </motion.p>

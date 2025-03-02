@@ -1,6 +1,7 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import Logo from "./Logo";
 
 const Header = () => {
   const location = useLocation();
@@ -29,8 +30,8 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <NavLink to="/" className="text-2xl font-bold text-white">
-              YourLogo
+            <NavLink to="/">
+              <Logo />
             </NavLink>
           </div>
 

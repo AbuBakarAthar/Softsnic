@@ -8,7 +8,7 @@ const teamMembers = [
     name: 'Abu Bakar',
     position: 'CEO',
     image: '/images/team/abu-bakar.jpg',
-    bio: 'As the CEO of Saafqeon, Abu Bakar leads with vision, strategy, and a passion for innovation.',
+    bio: 'As the CEO of Softsinc, Abu Bakar leads with vision, strategy, and a passion for innovation.',
   },
   {
     id: 2,
