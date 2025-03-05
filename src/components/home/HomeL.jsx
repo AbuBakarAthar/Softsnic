@@ -7,36 +7,37 @@ import "react-vertical-timeline-component/style.min.css";
 
 const HomeL = () => {
   return (
-<div className="p-6 bg-[#120c16] text-white min-h-screen">
-  <h1 className="text-4xl font-bold text-center text-[#f4379d]">What Makes Us Special?</h1>
-  <p className="text-center text-gray-300 mt-2 text-[#d1a5c7]">
-    At Softsinc, our commitment to innovation and excellence sets us apart. Here’s why clients choose us:
-  </p>
+    <div className="p-6 bg-[#120c16] text-white min-h-screen">
+      <h1 className="text-4xl font-bold text-center text-[#f4379d]">What Makes Us Special?</h1>
+      <p className="text-center text-gray-300 mt-2 text-[#d1a5c7]">
+        At Softsinc, our commitment to innovation and excellence sets us apart. Here’s why clients choose us:
+      </p>
 
 
       {/* Timeline Section */}
-      <div className="mt-10 p-6 bg-[#120c16] text-white min-h-screen">
+      <div className="mt-10 p-6 bg-[#120c16] text-white font-bold text-lg md:text-xl min-h-screen">
         <VerticalTimeline>
-          <Feature title="Government Endorsement">
+          <Feature title={<span className="text-white font-bold">Government Endorsement</span>}>
             Recognized by key government bodies for trusted expertise and leadership in technology.
           </Feature>
-          <Feature title="World-Class Team">
+          <Feature title={<span className="text-white font-bold">World-Class Team</span>}>
             Over 200 elite staff, 90% in the top 5% of their fields, with senior management in the top 1%.
           </Feature>
-          <Feature title="Extensive Expertise & Worldwide Presence">
+          <Feature title={<span className="text-white font-bold">Extensive Expertise & Worldwide Presence</span>}>
             200+ projects completed across 13 countries, delivering global solutions with a local touch.
           </Feature>
-          <Feature title="Proven Case Studies">
+          <Feature title={<span className="text-white font-bold">Proven Case Studies</span>}>
             Successful projects for startups, industry giants, and governments across various sectors.
           </Feature>
-          <Feature title="Cost Effective">
+          <Feature title={<span className="text-white font-bold">Cost Effective</span>}>
             High-value solutions without the premium price tag.
           </Feature>
-          <Feature title="Unmatched Success">
+          <Feature title={<span className="text-white font-bold">Unmatched Success</span>}>
             Global tech pacesetter in 2023 and 2024 with a legacy of groundbreaking achievements.
           </Feature>
         </VerticalTimeline>
       </div>
+
     </div>
   );
 };

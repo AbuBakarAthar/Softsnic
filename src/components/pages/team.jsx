@@ -4,11 +4,12 @@ import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const teamMembers = [
+
   {
     id: 1,
     name: "Abu Bakar",
     position: "CEO",
-    image: "/images/team/Abubakr.jpg",
+    image: "",
     bio: "As the CEO of Softsinc, Abu Bakar leads with vision, strategy, and a passion for innovation.",
     linkedin: "https://linkedin.com/in/random",
     github: "https://github.com/random",

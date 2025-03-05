@@ -1,6 +1,17 @@
 import React from "react";
 import Layout from "../../layout/Layout";
 import { motion } from "framer-motion";
+import { 
+  AiOutlineCode, 
+  AiOutlineSketch, 
+  AiOutlineSearch, 
+  AiOutlineLineChart, 
+  AiOutlineMobile, 
+  AiOutlineCloud, 
+  AiOutlineShoppingCart, 
+  AiOutlineTool, 
+  AiOutlineAppstore 
+} from "react-icons/ai";
 
 const services = [
   {
@@ -8,65 +19,67 @@ const services = [
     title: "Web Development",
     description:
       "We create dynamic, high-performance websites tailored to your brand’s needs, ensuring responsiveness and scalability.",
-    icon: "💻",
+    icon: <AiOutlineCode size={40} />,
   },
   {
     id: 2,
     title: "UI/UX Design",
     description:
       "Our expert designers craft intuitive and engaging user interfaces for enhanced digital experiences.",
-    icon: "🎨",
+    icon: <AiOutlineSketch size={40} />,
   },
   {
     id: 3,
     title: "SEO Optimization",
     description:
       "Boost your search rankings and drive organic traffic with our data-driven SEO strategies.",
-    icon: "🔍",
+    icon: <AiOutlineSearch size={40} />,
   },
   {
     id: 4,
     title: "Digital Marketing",
     description:
       "We elevate your brand’s presence through targeted social media, PPC campaigns, and growth strategies.",
-    icon: "📈",
+    icon: <AiOutlineLineChart size={40} />,
   },
   {
     id: 5,
     title: "Mobile App Development",
     description:
       "Cross-platform, high-performance mobile apps that deliver seamless user experiences.",
-    icon: "📱",
+    icon: <AiOutlineMobile size={40} />,
   },
   {
     id: 6,
     title: "Cloud Solutions",
     description:
       "Secure, scalable, and efficient cloud services to power your business operations.",
-    icon: "☁️",
+    icon: <AiOutlineCloud size={40} />,
   },
   {
     id: 7,
     title: "E-commerce Solutions",
     description:
       "Powerful and user-friendly e-commerce platforms designed to maximize sales and conversions.",
-    icon: "🛒",
+    icon: <AiOutlineShoppingCart size={40} />,
   },
   {
     id: 8,
     title: "Maintenance & Support",
     description:
       "Reliable, 24/7 maintenance and support to keep your systems running at peak performance.",
-    icon: "🔧",
+    icon: <AiOutlineTool size={40} />,
   },
   {
     id: 9,
     title: "Custom Software Development",
     description:
       "Tailored software solutions designed to meet your unique business requirements and workflows.",
-    icon: "🛠️",
+    icon: <AiOutlineAppstore size={40} />,
   },
 ];
+
+
 
 const Service = () => {
   return (

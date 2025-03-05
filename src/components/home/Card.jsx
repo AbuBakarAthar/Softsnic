@@ -33,7 +33,7 @@ const Card = ({ title, description, icon, time }) => {
         hover:shadow-lg 
         transition-all duration-500`} // Apply smooth transition to all properties
     >
-      <div className="bg-[#0C1113] max-w-full rounded-lg shadow-md overflow-hidden p-5">
+      <div className="bg-[#120c16] max-w-full rounded-lg shadow-md overflow-hidden p-5">
         <div className="flex justify-center mb-4"> {/* Center the icon */} 
           <div className="text-white text-4xl">
             {icon} {/* Render the passed icon */}

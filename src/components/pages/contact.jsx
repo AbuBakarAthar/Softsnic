@@ -54,7 +54,7 @@ const Contact = () => {
 
   return (
     <Layout>
-      <div className="flex justify-center items-center h-[300px] mt-20">
+      <div className="flex justify-center items-center h-[300px] mt-20 px-4">
         <div className="text-white text-center max-w-2xl">
           <h1 className="font-serif text-4xl font-bold mb-4">Let's Talk Your Goals</h1>
           <p className="text-lg">
@@ -65,17 +65,17 @@ const Contact = () => {
         </div>
       </div>
       
-      <div className="container mx-auto max-w-6xl py-8">
-        <div className="flex justify-center items-center">
-          {/* Left Side: Globe */}
-          <div className="w-1/2 flex justify-center">
+      <div className="container mx-auto max-w-6xl py-8 px-4">
+        <div className="flex flex-wrap justify-center items-center">
+          {/* Left Side: Globe (Hidden on small screens) */}
+          <div className="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
             <GlobeRotate />
           </div>
 
           {/* Right Side: Form */}
-          <div className="w-1/2">
-            <form className="bg-[#101828] p-8 rounded-lg shadow-md" onSubmit={handleContactForm}>
-              <h2 className="text-2xl font-bold text-white mb-6">Contact Us</h2>
+          <div className="w-full md:w-1/2">
+            <form className="bg-[#101828] p-8 rounded-lg shadow-md w-full" onSubmit={handleContactForm}>
+              <h2 className="text-2xl font-bold text-white mb-6 text-center">Contact Us</h2>
               
               <div className="mb-4">
                 <label className="block text-sm font-medium text-white mb-2" htmlFor="names">
@@ -85,7 +85,7 @@ const Contact = () => {
                   type="text"
                   id="names"
                   name="names"
-                  value={formData.names} // Controlled component
+                  value={formData.names}
                   onChange={setData}
                   className="w-full px-4 py-2 border rounded-lg text-white bg-transparent placeholder-white focus:ring-2 focus:ring-blue-500"
                   placeholder="Enter your name"
@@ -101,7 +101,7 @@ const Contact = () => {
                   type="email"
                   id="email"
                   name="email"
-                  value={formData.email} // Controlled component
+                  value={formData.email}
                   onChange={setData}
                   className="w-full px-4 py-2 border rounded-lg text-white bg-transparent placeholder-white focus:ring-2 focus:ring-blue-500"
                   placeholder="Enter your email"
@@ -116,7 +116,7 @@ const Contact = () => {
                 <textarea
                   id="message"
                   name="message"
-                  value={formData.message} // Controlled component
+                  value={formData.message}
                   onChange={setData}
                   className="w-full px-4 py-2 border rounded-lg text-white bg-transparent placeholder-white focus:ring-2 focus:ring-blue-500"
                   rows="4"

@@ -44,13 +44,12 @@ const Footer = () => {
       <div className="mt-10 border-t border-gray-700 pt-5 text-center md:text-left grid grid-cols-1 md:grid-cols-2 gap-5">
         <div>
           <h3 className="text-lg font-semibold">Contact Us</h3>
-          <p>Email: sales@Softsinc.com</p>
-          <p>Phone: +92 300 1234567</p>
-          <p>Phone: +1 773 270 9034</p>
+          <p>Email: softsincs@gmail.com</p>
+          <p>Phone: +92 347 3706598</p>
+          <p>Phone: +92 300 2611196</p>
         </div>
         <div>
-          <p>Headquarters: 71-75  L Block,  Sabzazar, Lahore</p>
-          <p>Office: 2335 W. Devon Ave , Narowal </p>
+          <p>Headquarters: 643 L Block,  Sabzazar, Lahore</p>
         </div>
       </div>
       

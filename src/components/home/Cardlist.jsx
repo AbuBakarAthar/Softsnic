@@ -43,7 +43,7 @@ const CardList = () => {
   ];
 
   return (
-    <div className="container mx-auto max-w-6xl p-4 text-white">
+    <div className="bg-[#120c16] container mx-auto max-w-6xl p-4 text-white">
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold">Our Innovative Services</h1>
         <p className="text-lg text-white mt-2">

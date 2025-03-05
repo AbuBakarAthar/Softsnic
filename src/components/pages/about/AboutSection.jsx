@@ -22,8 +22,9 @@ const AboutSection = () => {
         <div className="w-1/2 p-8">
           <h1 className="text-white text-3xl font-bold mb-4">Who We Are</h1>
           <p className="text-white text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia velit vel eros dapibus, at pretium erat consequat. Quisque tincidunt orci non tincidunt tincidunt. Nullam euismod lorem vitae nisi varius, sed luctus enim iaculis.
-          </p>
+          At SoftSincs, we craft innovative, scalable, and user-centric software solutions. Specializing in web & mobile development, UI/UX design, and cloud solutions, we help businesses thrive in the digital world.
+
+🚀 Your vision, our innovation!          </p>
         </div>
         
         {/* Right side with Carousel */}

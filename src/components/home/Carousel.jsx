@@ -45,7 +45,7 @@ const Carousel = () => {
         <motion.div
           className="flex space-x-10"
           animate={{ x: ["0%", "-100%"] }}
-          transition={{ repeat: Infinity, duration: 30, ease: "linear" }}
+          transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
         >
           {loopIcons.map((item, index) => (
             <div key={index} className="flex flex-col items-center text-white text-xl">
