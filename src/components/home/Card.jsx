@@ -58,3 +58,4 @@ const Card = ({ title, description, icon, time }) => {
 };
 
 export default Card;
+ 
