@@ -8,12 +8,10 @@ const MongoConnect = async () => {
     await mongoose.connect(process.env.MONGO_URL, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      tls: true,
-      tlsAllowInvalidCertificates: true // Bypass invalid certificates (if necessary)
-  });
-    console.log("MongoDB is connected Successfully");
+    });
+    console.log("✅ MongoDB connected successfully");
   } catch (error) {
-    console.log("MongoDB is connected error", error);
+    console.error("❌ MongoDB connection error:", error);
   }
 };
 

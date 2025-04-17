@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";  // Import Link from react-router-dom
 
 export default function HeroSection() {
   return (
@@ -34,22 +35,17 @@ export default function HeroSection() {
         
         {/* Buttons */}
         <div className="flex flex-wrap justify-center items-center mt-8 space-x-4">
-          <motion.button
-            className="px-6 py-2 rounded-lg bg-[#f4379d] text-white font-semibold uppercase shadow-lg hover:bg-[#d12f86] transition"
-            initial={{ x: -200, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ duration: 1.5, ease: "easeOut" }}
-          >
-            Learn More
-          </motion.button>
-          <motion.button
+        
+          <motion.div
             className="px-6 py-2 rounded-lg bg-[#2b1938] text-white font-semibold uppercase shadow-lg hover:bg-[#1e1228] transition"
             initial={{ x: 200, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1.5, ease: "easeOut" }}
           >
-            Contact Us
-          </motion.button>
+            <Link to="/contactus"> {/* Wrap the button with Link */}
+              Contact Us
+            </Link>
+          </motion.div>
         </div>
       </div>
     </div>

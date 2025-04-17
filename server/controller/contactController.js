@@ -2,7 +2,7 @@ import sendEmail from "../mail/contactMail.js";
 import contactModel from "../models/contactModel.js";
 
 const contactController = (req, resp) => {
-  const { names, email, message } = req.body.formData;
+  const { names, email, message } = req.body;
   console.log(req.body.formData)
   if (!names || !email || !message) {
     return resp.status(400).json({

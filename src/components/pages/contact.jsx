@@ -22,6 +22,7 @@ const Contact = () => {
 
   const handleContactForm = async (e) => {
     e.preventDefault();
+    console.log(formData)
     try {
       const { data } = await axios.post(
         "http://localhost:4500/api/v1/message/save-message",
