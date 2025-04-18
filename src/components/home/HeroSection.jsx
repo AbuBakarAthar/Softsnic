@@ -64,8 +64,9 @@ export default function HeroSection() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, ease: "easeIn" }}
         >
-          Innovating the Future, Delivering Excellence
-        </motion.h2>
+Innovating for a Smarter Future, Committed to Excellence in Every Solution
+
+</motion.h2>
 
         <motion.p
           className="text-lg text-gray-200 mt-6 leading-6 max-w-3xl mx-auto text-center"
@@ -73,8 +74,8 @@ export default function HeroSection() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 2, ease: "easeIn" }}
         >
-      Transforming ideas into cutting-edge solutions. At Softsinc, we fuse AI-driven innovation with seamless execution, providing end-to-end IT solutions that empower businesses with intelligent technology, seamless integration, and continuous support.
-        </motion.p>
+At Softsinc, we turn smart ideas into real solutions.
+We use the power of AI and modern technology to help businesses grow. From planning and setup to full support, we handle everything to make your work easier and more efficient.        </motion.p>
       </div>
     </div>
   );
