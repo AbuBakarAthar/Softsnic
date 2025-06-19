@@ -84,7 +84,7 @@ const StatsSection = () => {
       <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center md:w-1/2">
         {[
           { end: 60, label: "Projects Completed" },
-          { end: 30, label: " Team Members" },
+          { end: 40, label: " Team Members" },
           { end: 15000, label: "Hours in Development" },
           { end: 90, label: "Happy Clients" },
           { end: 97, label: "Customer Satisfaction", suffix: "%" },

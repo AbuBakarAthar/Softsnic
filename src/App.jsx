@@ -15,7 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 import 'react-toastify/dist/ReactToastify.css';
 
 // 👉 Toggle maintenance mode ON/OFF
-const isUnderMaintenance = false;
+const isUnderMaintenance = True;
 
 function App() {
   if (isUnderMaintenance) {
